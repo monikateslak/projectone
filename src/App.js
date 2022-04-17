@@ -1,19 +1,18 @@
 import React from 'react'
 //import logo from './logo.svg'
 import './App.css'
-import MainSection from './SectionMain'
+import MainSection from './MainSection'
 import Nav from './Nav'
-import Square from './HelloMessage'
+//import Square from './HelloMessage'
 
 function App() {
   return (
     <div>
-       <Nav></Nav>
-        <Square></Square> 
+      <Nav></Nav>
+
       <div className="App">
         <header className="App-header">
-         
-          <h1> Fach App</h1>
+          <h1> Rura App</h1>
           <a
             className="App-link"
             href="https://reactjs.org"
@@ -26,9 +25,6 @@ function App() {
           <main>
             <div className="wrapper">
               <p>Matt i Patt to nie bajka</p>
-              <p>Wykończenie wnętrz</p>
-              <p>naprawy dom</p>
-              <p>autko</p>
             </div>
           </main>
         </header>
