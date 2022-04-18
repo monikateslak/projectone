@@ -4,16 +4,14 @@ import './nav.css'
 function Nav() {
   return (
     <>
-      <div id="nav-css">
-        <ul>
-          <li>logo</li>
-          <li>home</li>
-          <li>shop</li>
-          <li>free</li>
-          <li>about</li>
-          <li>contact</li>
-          <li>join</li>
-        </ul>
+      <div className="nav-css">
+        <div>logo</div>
+        <div>home</div>
+        <div>shop</div>
+        <div>free</div>
+        <div>about</div>
+        <div>contact</div>
+        <div>join</div>
       </div>
     </>
   )

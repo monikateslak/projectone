@@ -1,4 +1,4 @@
-ul li {
-    display: inline-block;
-    padding: 4%;
+.nav-css {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
 }

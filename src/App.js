@@ -19,12 +19,13 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            szukaj fachowca //tu wyszukaj - lupka
+            Pool Dance Camp
           </a>
           <MainSection></MainSection>
           <main>
             <div className="wrapper">
-              <p>Matt i Patt to nie bajka</p>
+              <p>Szybki start</p>
+              <button>Kliknij tu</button>
             </div>
           </main>
         </header>

@@ -1,23 +1,17 @@
 import React from 'react'
+import './MainSection.css'
 
 function MainSection() {
   return (
-    <div className="box">
-      <div>
-        one
-        <p>zacznij dziś nie jutro</p>
-        <p>start today not tommorow</p>
-      </div>
-      <p>basic</p>
-      <div></div>
-      <div>
-        <span>medium</span>
-      </div>
-      <div>
-        <p>star</p>
-      </div>
-      <div>Advancet</div>
-      <div>Zacznij od siebie nie od innych</div>
+    <div className="wrapper">
+      <div className="one">one</div>
+      <div className="two">two</div>
+      <div className="three">three</div>
+      <div className="four">four</div>
+      <div className="five">five</div>
+      <div className="six">six</div>
+      <div className="seven">seven</div>
+      <div className="eight">eight</div>
     </div>
   )
 }
