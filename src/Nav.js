@@ -12,6 +12,7 @@ function Nav() {
         <div>about</div>
         <div>contact</div>
         <div>join</div>
+        <div>log in</div>
       </div>
     </>
   )

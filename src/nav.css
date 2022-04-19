@@ -1,4 +1,8 @@
 .nav-css {
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(8, 1fr);
+}
+.nav-css div {
+  border: 2px solid black ;
+  background-color: pink;
 }

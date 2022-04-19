@@ -1,6 +1,7 @@
 import React from 'react'
 //import logo from './logo.svg'
 import './App.css'
+import Footer from './Footer'
 import MainSection from './MainSection'
 import Nav from './Nav'
 //import Square from './HelloMessage'
@@ -12,24 +13,20 @@ function App() {
 
       <div className="App">
         <header className="App-header">
-          <h1> Rura App</h1>
+          <h1>Pole Dance Camp</h1>
+          
           <a
             className="App-link"
             href="https://reactjs.org"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Pool Dance Camp
+            Rura App Download
           </a>
           <MainSection></MainSection>
-          <main>
-            <div className="wrapper">
-              <p>Szybki start</p>
-              <button>Kliknij tu</button>
-            </div>
-          </main>
         </header>
       </div>
+      <Footer></Footer>
     </div>
   )
 }
