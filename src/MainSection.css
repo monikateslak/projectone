@@ -1,9 +1,12 @@
 .wrapper {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
 }
 .wrapper div {
   border: 3px solid black;
   color: black;
   background-color: pink;
+  padding: 10px;
 }
