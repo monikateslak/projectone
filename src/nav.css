@@ -1,8 +1,10 @@
 .nav-css {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
+  grid-auto-rows: minmax(50px, auto);
 }
 .nav-css div {
   border: 2px solid black ;
   background-color: pink;
+  padding: 15px;
 }
