@@ -1,34 +1,47 @@
 import React from 'react'
-//import logo from './logo.svg'
 import './App.css'
 import Footer from './Components/Footer'
-import MainSection from './Components/MainSection'
+import MainSection from './MainSection'
 import Nav from './Components/Nav'
-//import Square from './HelloMessage'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 function App() {
   return (
-    <div>
-      <Nav></Nav>
+    <>
+      <Router>
+        <div>
+          <Nav></Nav>
+          <Routes>
+            <Route path="/" element={<Home />}></Route>
+            <Route path="/main" element={<MainSection />} />
+            <Route path="/nav" element={<Nav />}></Route>
+          </Routes>
 
-      <div className="App">
-        <header className="App-header">
-          <h1>Pole Dance Camp</h1>
+          <div className="App">
+            <header className="App-header">
+              <h1>Pole Dance Camp</h1>
 
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Rura App Download
-          </a>
-          <MainSection></MainSection>
-        </header>
-      </div>
-      <Footer></Footer>
-    </div>
+              <a
+                className="App-link"
+                href="https://reactjs.org"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                RuraApp
+              </a>
+              <MainSection></MainSection>
+            </header>
+          </div>
+          <Footer></Footer>
+        </div>
+      </Router>
+    </>
   )
 }
+const Home = () => (
+  <div>
+    <h1>Home Page</h1>
+  </div>
+)
 
 export default App
