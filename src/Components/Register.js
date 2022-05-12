@@ -1,4 +1,4 @@
-import { FormLabel } from '@material-ui/core'
+//import { FormLabel } from '@material-ui/core'
 import React from 'react'
 
 function Register() {
@@ -6,7 +6,7 @@ function Register() {
     <div className="login-form">
       lregister-form
       <form>
-        <FormLabel></FormLabel>
+        
         <input>Name</input>
         <input>Surname</input>
         <input>Email</input>

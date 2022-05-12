@@ -1,20 +1,29 @@
 import React from 'react'
 import './App.css'
+import Header from './Header'
 import Footer from './Components/Footer'
 import MainSection from './MainSection'
 import Nav from './Components/Nav'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+
+const Home = () => <div>Home</div>
+const About = () => <div>About</div>
+const User = () => <div>User</div>
 
 function App() {
   return (
     <>
       <Router>
         <div>
+          <Header></Header>
           <Nav></Nav>
           <Routes>
             <Route path="/" element={<Home />}></Route>
+            <Route path="/about" element={<About></About>}></Route>
+            <Route path="/user" element={<User></User>}></Route>
             <Route path="/main" element={<MainSection />} />
             <Route path="/nav" element={<Nav />}></Route>
+            <Route path="/footertest" element={<Footer />}></Route>
           </Routes>
 
           <div className="App">
@@ -38,10 +47,5 @@ function App() {
     </>
   )
 }
-const Home = () => (
-  <div>
-    <h1>Home Page</h1>
-  </div>
-)
 
 export default App
