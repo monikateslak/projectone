@@ -5,13 +5,17 @@ import Footer from './Components/Footer'
 import MainSection from './Components/MainSection'
 import Nav from './Components/Nav'
 import Images from './Components/Images'
+import Result from './Components/Result'
+import Element from './Components/ElementReactVirtualDom'
 //import Square from './HelloMessage'
 
 function App() {
   return (
     <div>
       <Nav></Nav>
-<Images></Images>
+      <Element></Element>
+      <Images></Images>
+      <Result></Result>
       <div className="App">
         <header className="App-header">
           <h1>Pole Dance Camp</h1>
