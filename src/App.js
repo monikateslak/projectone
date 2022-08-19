@@ -3,14 +3,17 @@ import React from 'react'
 import './App.css'
 import MainSection from './MainSection'
 import Nav from './Nav'
+import Images from './Images'
+//import ListProducts from './App.test'
 //import Square from './HelloMessage'
 
 function App() {
   return (
     <div>
       <Nav></Nav>
-      <img src='./images/IMG_2911.JPEG' alt='zielona hala'></img>
-
+      <Images></Images>
+      <img src="./images/IMG_2911.JPEG" alt="zielona hala"></img>
+      {/*<ListProducts></ListProducts>*/}
       <div className="App">
         <header className="App-header">
           <h1> Rura App</h1>

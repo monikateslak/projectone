@@ -1,8 +1,18 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import React from 'react'
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+function ListProducts() {
+  const Products = {
+    product: ['Obraz Hala Gąsienicowa', 'Tatry', 'Magiczny Ogród'],
+  }
+  return (
+    <div>
+      <ul>
+        {Products.map((product) => (
+          <li key={product}></li>
+        ))}
+      </ul>
+    </div>
+  )
+}
+
+export default ListProducts
