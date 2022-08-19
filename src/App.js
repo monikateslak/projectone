@@ -9,6 +9,7 @@ function App() {
   return (
     <div>
       <Nav></Nav>
+      <img src='./images/IMG_2911.JPEG' alt='zielona hala'></img>
 
       <div className="App">
         <header className="App-header">
@@ -19,12 +20,12 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            szukaj fachowca //tu wyszukaj - lupka
+            Our Gallery !!! Add You Photos
           </a>
           <MainSection></MainSection>
           <main>
             <div className="wrapper">
-              <p>Matt i Patt to nie bajka</p>
+              <p>Fast Start</p>
             </div>
           </main>
         </header>
