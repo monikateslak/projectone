@@ -4,13 +4,14 @@ import './App.css'
 import Footer from './Components/Footer'
 import MainSection from './Components/MainSection'
 import Nav from './Components/Nav'
+import Images from './Components/Images'
 //import Square from './HelloMessage'
 
 function App() {
   return (
     <div>
       <Nav></Nav>
-
+<Images></Images>
       <div className="App">
         <header className="App-header">
           <h1>Pole Dance Camp</h1>
