@@ -11,6 +11,18 @@ function Images() {
               alt="hala zieleń"
               width={500}
             ></img>
+            <p>Wybierz rozmiar</p>
+            <ul>
+              <li>
+                choose s <button>choose s</button>
+              </li>
+              <li>
+                <button>choose m</button>
+              </li>
+              <li>
+                <button>choose l </button>
+              </li>
+            </ul>
           </li>
           <li>
             <img
